@@ -1,0 +1,26 @@
+
+11.1
+Este objeto es una instancia de la clase java.io.PrintStream. PrintStream es una clase que proporciona métodos para imprimir datos en la consola o en otro flujo de salida.
+println(): Este método imprime una línea vacía en la consola.
+println(boolean x): Imprime el valor de un booleano y luego una nueva línea.
+println(char x): Imprime un carácter y luego una nueva línea.
+println(int x): Imprime un entero y luego una nueva línea.
+println(String x): Imprime una cadena de texto y luego una nueva línea, entre otros.
+
+11.2
+En Java, hay una versión de println por cada tipo primitivo (como int, double, boolean, etc.) porque la sobrecarga de métodos permite que un método tenga diferentes versiones que acepten diferentes tipos de argumentos.
+
+
+
+Para devolver todos los registros que contengan la cadena indicada al buscar por nombre debemos
+
+se requeriría modificar el método consultar en la clase Contactos. 
+
+Iterar sobre los registros (Recorre todos los registros de tu conjunto de datos)
+
+Para cada registro, verificar si contiene la cadena de búsqueda
+
+Al finalizar la iteración, devuelve la lista de resultados:
+
+
+

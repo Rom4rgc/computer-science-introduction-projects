@@ -1,0 +1,12 @@
+
+10.1
+
+R= Un objeto de tipo file ,representa y se puede acceder a él desde un archivo o directorio  
+manipular rutas de archivos, mover y cambiar el nombre de archivos y carpetas, crear archivos 
+y directorios, obtenga información sobre ellos. un método como File(),
+exists(), length(), etc.
+Actividad 10.2
+R= El programa cuando tiene nextline lee toda la linea de texto, sin embargo con
+next() el programa lee sólo el primer token de la línea de texto, por lo que 
+el  programa imprime solo  el primer token, no toda la línea de texto, de lo contrario 
+Si ingresa solo un espacio, el programa no imprimirá nada.
