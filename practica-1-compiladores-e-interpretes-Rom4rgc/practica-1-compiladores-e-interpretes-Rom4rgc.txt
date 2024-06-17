@@ -1,0 +1,70 @@
+ENTREGABLES
+A)
+Actividad 1.3
+Los siguientes archivos fueron creados en la carpeta src 
+
+Acción.class
+AcciónCorriendo.class
+AcciónQuieto.class
+AcciónSaltando.class
+Estado.class
+Mundo.class
+Personaje.class
+Sprite.class
+UsoPersonaje.class
+VistaMundo.class
+Vistamundo$1.class
+Vistamundo$2.class
+
+B)
+Actividad 1.5
+
+Al intentar invocar la maquina virtual da un error al encontrar/buscar la main class.
+
+Error: Could not find or load main class icc.mundo.Acción
+Caused by: java.lang.ClassNotFoundException: icc.mundo.Acción
+
+
+No estoy seguro el porque el archivo "Usopersonaje: si puede ser invocado  pero podria ser por que tiene todos los modificadores de acceso en public 
+
+C)
+Actividad 1.9
+
+Los archivos ".class" ahora se encuentran dentro de la carpeta "Build"/icc/mundo
+
+
+Actividad 1.10
+
+EL comando de ejecucuion de java 
+
+Actividad 1.12
+
+Ant utiliza el archivo de configuración "().xml" y las metas definidas en él para determinar qué tareas de compilación y otros procesos de construcción debe llevar a cabo.
+
+D)
+Actividad 1.13
+Si no pasamos ningun argumento no corre el programa y nos da el siguiente mensaje 
+
+[java] No se indicó qué personaje mostrar.
+     [java] Los personajes disponibles son:
+     [java] 	Cyborg
+     [java] 	Biker
+     [java] 	Punk
+
+BUILD FAILED
+Target "Completo/build.xml" does not exist in the project "Mundo". 
+Si agregamos uno de los personajes el programa corre correctamante, el uso de mayusculas si importa puesto que los personajes no podran se encontrados si no los escribimos exactamente como se llaman 
+
+Actividad 1.14
+No detecta el main class
+
+E) Actividad 1.16
+
+TargetArchivo 1: doc,dist,compile,clean
+Target Archivo2 : Compile,doc,clean
+run=compile
+
+4.- Respuesta con justificación:
+Los errores que tuve que corregir son del tipo "Sintáctico"
+Puesto que un error sintáctico ocurre cuando el código no sigue las reglas gramaticales o de estructura. Estos errores fueron  detectados por el compilador y evitaron que el programa sea compilado correctamente. 
+

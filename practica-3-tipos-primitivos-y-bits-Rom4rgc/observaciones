@@ -1,0 +1,49 @@
+2.1
+El resultado es -2147483648 en base 10 y su representación en binario es 10000000000000000000000000000000. Esto es el resultado de un desbordamiento de entero.
+
+2.2
+
+2.3
+Valores originales de permisos en decimal y binario:
+Decimal: 492
+Binario: 111101100
+
+2.4
+Valores resultantes de permisos después de 3  corrimientos en decimal y binario:
+Decimal: 3936
+Binario: 111101100000
+
+todos los valores aparecen al ejecutar Pruebas.java 
+
+2.5
+ para otorgar permisos de escritura a todos los usuarios sin modificar los otros permisos
+
+permisos = (short) (permisos | permisosEscritura);
+
+Esto modificará los permisos originales (0754) para que todos los usuarios ahora tengan permiso de escritura. 
+
+Desarrollo
+
+1
+las diferencias principales son la cantidad de bits utilizados para representar el número y la manera en que esos bits están distribuidos para representar la parte entera y fraccional en números de punto flotante (float y double).
+
+2
+Si conviertes -456.601 a un int, la parte fraccionaria se perderá y obtendrás -456 almacenado en la variable x.
+
+java
+Copy code
+int x = (int) -456.601;
+Después de esta conversión, x contendrá el valor -456.
+
+3
+La variable mascara tiene un valor de 11110000 en binario después del corrimiento de bits. Esto significa que los últimos cuatro dígitos son unos y están en las posiciones 4 a 7.
+
+5
+ Resultado num & máscara: 128
+     [java] 00000000000000000000010111110000
+     [java] Resultado num | máscara: 1520
+     [java] 00000000000000000000010101110000
+     [java] Resultado num ˆ máscara: 1392
+     [java] 11111111111111111111101001111111
+     [java] Complemento a uno de num: -1409
+

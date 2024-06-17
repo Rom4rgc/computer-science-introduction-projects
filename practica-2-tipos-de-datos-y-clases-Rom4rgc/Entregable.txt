@@ -1,0 +1,5 @@
+equals y equalsIgnoreCase devuelven un valor verdadero o falso, mientras que compareTo y compareToIgnoreCase devuelven un valor numérico que indica la relación lexicográfica entre las cadenas (menor, igual o mayor).
+
+"Hola".compareTo("Adios") devuelve un valor negativo, y "Hola" viene antes de "Adios" en orden alfabético.
+"Hola".compareTo("hola") devuelve un valor positivo, y "Hola" viene después de "hola" en orden alfabético debido a que las letras mayúsculas se consideran antes que las minúsculas.
+"Hola".compareToIgnoreCase("hola") devuelve 0, lo que indica que las cadenas son iguales cuando se ignora la capitalización.
